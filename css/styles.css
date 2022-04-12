@@ -16,7 +16,24 @@
     .sks {
         display: none;
     }
+
+    .firstcol {
+        margin-top: 150px;
+    }
 }
+
+html {
+    cursor: url("img/cursor1.png"), default;
+}
+
+a,button:hover {
+    cursor: url("img/cursor2.png"), auto;
+}
+.btn,.accordion-button:hover {
+    cursor: url("img/cursor2.png"), auto;
+}
+
+
 
 .navbar {
     background-color: #333333;
@@ -154,4 +171,17 @@ visibility: visible;
 
 .tabble_characters {
     font-family: 'Lobster', cursive;
+}
+
+#collapseCharacters {
+    margin-bottom: 3em;
+}
+
+.tabble_characters>tbody>tr>td a {
+    color: black;
+    text-decoration: none;
+}
+
+.tabble_characters>tbody>tr>td a:hover {
+    color: gray;
 }
