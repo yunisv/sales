@@ -76,6 +76,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     margin-top: 80px;
 }
 
@@ -185,3 +186,4 @@ visibility: visible;
 .tabble_characters>tbody>tr>td a:hover {
     color: gray;
 }
+
