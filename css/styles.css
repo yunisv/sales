@@ -99,7 +99,7 @@ header {
 }
 
 .mapcol {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .accordion-button span {
@@ -109,15 +109,16 @@ header {
 }
 
 .marketing {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .teyvatinfo {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .firstcol {
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .accordion-body  {
