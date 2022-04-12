@@ -1,0 +1,150 @@
+@media (max-width: 1200px) {
+    .carousel-caption { font-size: 10px; padding: 5px 0px 0px 0px  ;}
+    .bannerinfomini {font-size: 14px;}
+}
+@media (min-width: 1200px) {
+    .carousel-caption { font-size: 12px; padding: 8px 0px 0px 0px  ;}
+    .bannerinfomini {font-size: 18px;}
+    .logodiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.navbar {
+    background-color: #333333;
+}
+
+.nav-item {
+    font-family: 'Lora', serif;
+}
+
+.nav-item:hover {
+    color: aliceblue;
+}
+
+#navbar-brand {
+    font-family: 'Merienda', cursive;
+    font-size: 28px;
+    color: #999999;
+}
+
+#navbar-brand:hover {
+    color: aliceblue;
+}
+
+.carousel-caption {
+    left: 4%;
+    width: 30%;
+    height: 25%;
+    background-color: rgba(36, 36, 36, 0.5);
+    font-family: 'Lora', serif;
+}
+
+.carousel img {
+    width: 75%;
+    height: auto;
+}
+
+body {
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.7) ), url('img/oboi1.png');
+    background-color: rgba(0,0,0,0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 80px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+.zaqolovok {
+    margin-top: 20px;
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.7) ), url('img/651ed0aa96-2_2780x1200.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}   
+
+.mapbutton {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    margin:0;padding:5px 3px;
+    font-family: 'Lora', serif;
+    border-radius: 50%; 
+    height: 100px; 
+    width: 100px; 
+    font-size: 50px;
+    background-color: #999999;
+    z-index: 100;
+}
+
+.columnitems {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+.columnitems h2,p {
+    color: aliceblue;
+    font-family: "Lora", serif;
+}
+
+.mapcol {
+    margin-top: 100px;
+}
+
+.accordion-button span {
+    font-family: "Lobster", cursive;
+    color: black;
+    font-size: larger;
+}
+
+.marketing {
+    margin-top: 100px;
+}
+
+.teyvatinfo {
+    margin-top: 100px;
+}
+
+.firstcol {
+    margin-top: 100px;
+}
+
+.accordion-body  {
+    background-color: rgba(37, 35, 35, 0.472) ;
+}
+
+.genshinmap {
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.miniphoto span{
+    visibility: hidden;
+    position: absolute;
+    left: 200px;
+    background: #fff;
+    box-shadow: -2px 2px 10px -1px #333; 
+}
+ 
+.miniphoto:hover span{
+visibility: visible;
+}
+
+.tabble_characters {
+    font-family: 'Lobster', cursive;
+}
